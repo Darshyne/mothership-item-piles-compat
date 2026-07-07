@@ -1,0 +1,9 @@
+{
+  "TYPES.Item.armor": "Armor",
+  "TYPES.Item.item": "Items",
+  "TYPES.Item.weapon": "Weapons",
+  "MIPC.CreditsModifiedTitle": "Credits modified",
+  "MIPC.Character": "Character",
+  "MIPC.Modification": "Change",
+  "MIPC.ModifiedBy": "Modified by"
+}

@@ -3,7 +3,7 @@
   "title": "Mothership Item Piles Compatibility",
   "description": "Compatibilité entre Item Piles et le système MoSh - Unofficial Mothership pour Foundry VTT v13.",
   "version": "1.0.7",
-  "authors": [{ "name": "Darshyne" }],
+  "authors": [{ "name": "Raphaël / ChatGPT" }],
   "compatibility": { "minimum": "13", "verified": "13.351" },
   "esmodules": ["scripts/mothership-item-piles-compat.js"],
   "languages": [
@@ -12,7 +12,13 @@
   ],
   "relationships": {
     "systems": [{ "id": "mosh", "type": "system" }],
-    "requires": [{ "id": "item-piles", "type": "module" }]
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/module.json"
+      }
+    ]
   },
   "url": "https://github.com/Darshyne/mothership-item-piles-compat",
   "manifest": "https://raw.githubusercontent.com/Darshyne/mothership-item-piles-compat/main/module.json",
